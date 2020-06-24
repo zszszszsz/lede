@@ -90,7 +90,7 @@ jobs:
           # 编译WDR6500 V2固件:
           cat >> .config <<EOF
           CONFIG_TARGET_ar71xx=y
-          CONFIG_TARGET_ar71xx_DEVICE_tl_wdr6500_v2=y
+          CONFIG_TARGET_ar71xx_DEVICE_tl-wdr6500_v2=y
           CONFIG_TARGET_BOARD="ar71xx"
           EOF
 
